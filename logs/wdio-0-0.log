@@ -1,0 +1,338 @@
+2026-02-04T21:46:36.441Z INFO @wdio/local-runner: Run worker command: run
+2026-02-04T21:46:37.042Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-02-04T21:46:37.042Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-02-04T21:46:37.051Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-02-04T21:46:45.639Z INFO @wdio/visual-service: Adding commands to global browser
+2026-02-04T21:46:45.640Z INFO webdriver: COMMAND getOrientation()
+2026-02-04T21:46:45.640Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/orientation
+2026-02-04T21:46:46.036Z INFO webdriver: RESULT PORTRAIT
+2026-02-04T21:46:46.037Z INFO webdriver: COMMAND executeScript("mobile: deviceInfo", <object>)
+2026-02-04T21:46:46.037Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/execute/sync
+2026-02-04T21:46:46.037Z INFO webdriver: DATA {"script":"mobile: deviceInfo","args":[]}
+2026-02-04T21:46:46.059Z INFO webdriver: RESULT {
+  androidId: '62bef49e0de8fd81',
+  apiVersion: '36',
+  bluetooth: { state: 'ON' },
+  brand: 'google',
+  carrierName: 'T-Mobile',
+  displayDensity: 480,
+  locale: 'en_US',
+  manufacturer: 'Google',
+  model: 'sdk_gphone64_x86_64',
+  networks: [
+    {
+      capabilities: [Object],
+      detailedState: 'CONNECTED',
+      extraInfo: 'epc.tmobile.com',
+      isAvailable: true,
+      isConnected: true,
+      isFailover: false,
+      isRoaming: false,
+      state: 'CONNECTED',
+      subtype: 20,
+      subtypeName: 'NR',
+      type: 0,
+      typeName: 'MOBILE'
+    },
+    {
+      capabilities: [Object],
+      detailedState: 'CONNECTED',
+      extraInfo: '',
+      isAvailable: true,
+      isConnected: true,
+      isFailover: false,
+      isRoaming: false,
+      state: 'CONNECTED',
+      subtype: -1,
+      subtypeName: '',
+      type: 1,
+      typeName: 'WIFI'
+    }
+  ],
+  platformVersion: '16',
+  realDisplaySize: '1280x2856',
+  timeZone: 'Europe/London'
+}
+2026-02-04T21:46:46.060Z INFO @wdio/visual-service: Adding element command "saveElement" to browser object
+2026-02-04T21:46:46.060Z INFO @wdio/visual-service: Adding element command "checkElement" to browser object
+2026-02-04T21:46:46.060Z INFO @wdio/visual-service: Adding browser command "saveScreen" to browser object
+2026-02-04T21:46:46.060Z INFO @wdio/visual-service: Adding browser command "saveFullPageScreen" to browser object
+2026-02-04T21:46:46.060Z INFO @wdio/visual-service: Adding browser command "saveTabbablePage" to browser object
+2026-02-04T21:46:46.060Z INFO @wdio/visual-service: Adding browser command "checkScreen" to browser object
+2026-02-04T21:46:46.060Z INFO @wdio/visual-service: Adding browser command "checkFullPageScreen" to browser object
+2026-02-04T21:46:46.060Z INFO @wdio/visual-service: Adding browser command "checkTabbablePage" to browser object
+2026-02-04T21:46:46.060Z INFO @wdio/visual-service: Adding browser command "waitForStorybookComponentToBeLoaded" to browser object
+2026-02-04T21:46:46.067Z INFO webdriver: COMMAND findElement("id", "ShoppingListBox")
+2026-02-04T21:46:46.068Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:46.068Z INFO webdriver: DATA {"using":"id","value":"ShoppingListBox"}
+2026-02-04T21:46:46.153Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000020',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000020'
+}
+2026-02-04T21:46:46.158Z INFO webdriver: COMMAND elementClear("00000000-0000-0809-ffff-ffff00000020")
+2026-02-04T21:46:46.158Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000020/clear
+2026-02-04T21:46:46.158Z INFO webdriver: DATA {}
+2026-02-04T21:46:46.193Z INFO webdriver: RESULT null
+2026-02-04T21:46:46.194Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0809-ffff-ffff00000020", "Apples")
+2026-02-04T21:46:46.194Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000020/value
+2026-02-04T21:46:46.194Z INFO webdriver: DATA {"text":"Apples"}
+2026-02-04T21:46:47.239Z INFO webdriver: RESULT null
+2026-02-04T21:46:47.239Z INFO webdriver: COMMAND findElement("id", "AddShoppingListItem")
+2026-02-04T21:46:47.240Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:47.240Z INFO webdriver: DATA {"using":"id","value":"AddShoppingListItem"}
+2026-02-04T21:46:47.850Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000022',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000022'
+}
+2026-02-04T21:46:47.853Z INFO webdriver: COMMAND elementClick("00000000-0000-0809-ffff-ffff00000022")
+2026-02-04T21:46:47.853Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000022/click
+2026-02-04T21:46:47.853Z INFO webdriver: DATA {}
+2026-02-04T21:46:47.931Z INFO webdriver: RESULT null
+2026-02-04T21:46:47.932Z INFO webdriver: COMMAND findElements("id", "ItemRow")
+2026-02-04T21:46:47.932Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/elements
+2026-02-04T21:46:47.932Z INFO webdriver: DATA {"using":"id","value":"ItemRow"}
+2026-02-04T21:46:48.286Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000028',
+    ELEMENT: '00000000-0000-0809-ffff-ffff00000028'
+  }
+]
+2026-02-04T21:46:48.288Z INFO webdriver: COMMAND findElements("id", "ItemRow")
+2026-02-04T21:46:48.289Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/elements
+2026-02-04T21:46:48.289Z INFO webdriver: DATA {"using":"id","value":"ItemRow"}
+2026-02-04T21:46:48.844Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000028',
+    ELEMENT: '00000000-0000-0809-ffff-ffff00000028'
+  }
+]
+2026-02-04T21:46:48.847Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0809-ffff-ffff00000028")
+2026-02-04T21:46:48.847Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000028/displayed
+2026-02-04T21:46:48.875Z INFO webdriver: RESULT true
+2026-02-04T21:46:48.875Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0809-ffff-ffff00000028", "id", "ItemLabel")
+2026-02-04T21:46:48.876Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000028/element
+2026-02-04T21:46:48.876Z INFO webdriver: DATA {"using":"id","value":"ItemLabel"}
+2026-02-04T21:46:48.892Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff0000002b',
+  ELEMENT: '00000000-0000-0809-ffff-ffff0000002b'
+}
+2026-02-04T21:46:48.894Z INFO webdriver: COMMAND getElementText("00000000-0000-0809-ffff-ffff0000002b")
+2026-02-04T21:46:48.894Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff0000002b/text
+2026-02-04T21:46:48.908Z INFO webdriver: RESULT Apples
+2026-02-04T21:46:48.909Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0809-ffff-ffff00000028", "id", "ItemLabel")
+2026-02-04T21:46:48.909Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000028/element
+2026-02-04T21:46:48.909Z INFO webdriver: DATA {"using":"id","value":"ItemLabel"}
+2026-02-04T21:46:48.925Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff0000002b',
+  ELEMENT: '00000000-0000-0809-ffff-ffff0000002b'
+}
+2026-02-04T21:46:48.927Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0809-ffff-ffff00000028")
+2026-02-04T21:46:48.927Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000028/displayed
+2026-02-04T21:46:48.939Z INFO webdriver: RESULT true
+2026-02-04T21:46:48.939Z INFO webdriver: COMMAND elementClick("00000000-0000-0809-ffff-ffff00000028")
+2026-02-04T21:46:48.939Z INFO webdriver: COMMAND findElement("id", "ItemCategory")
+2026-02-04T21:46:48.939Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000028/click
+2026-02-04T21:46:48.939Z INFO webdriver: DATA {}
+2026-02-04T21:46:48.939Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:48.940Z INFO webdriver: DATA {"using":"id","value":"ItemCategory"}
+2026-02-04T21:46:49.012Z INFO webdriver: RESULT null
+2026-02-04T21:46:49.681Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000039',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000039'
+}
+2026-02-04T21:46:49.683Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0809-ffff-ffff00000039")
+2026-02-04T21:46:49.683Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000039/displayed
+2026-02-04T21:46:50.284Z INFO webdriver: RESULT true
+2026-02-04T21:46:50.284Z INFO webdriver: COMMAND findElement("id", "ItemCategory")
+2026-02-04T21:46:50.284Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:50.284Z INFO webdriver: DATA {"using":"id","value":"ItemCategory"}
+2026-02-04T21:46:50.326Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000039',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000039'
+}
+2026-02-04T21:46:50.328Z INFO webdriver: COMMAND elementClick("00000000-0000-0809-ffff-ffff00000039")
+2026-02-04T21:46:50.328Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000039/click
+2026-02-04T21:46:50.328Z INFO webdriver: DATA {}
+2026-02-04T21:46:50.396Z INFO webdriver: RESULT null
+2026-02-04T21:46:50.397Z INFO webdriver: COMMAND findElement("id", "android:id/text1")
+2026-02-04T21:46:50.397Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:50.397Z INFO webdriver: DATA {"using":"id","value":"android:id/text1"}
+2026-02-04T21:46:50.586Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\karlt\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\karlt\\appium-js\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\karlt\\appium-js\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-02-04T21:46:50.588Z INFO webdriver: COMMAND findElement("id", "android:id/text1")
+2026-02-04T21:46:50.588Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:50.588Z INFO webdriver: DATA {"using":"id","value":"android:id/text1"}
+2026-02-04T21:46:51.102Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-080a-ffff-ffff0000005d',
+  ELEMENT: '00000000-0000-080a-ffff-ffff0000005d'
+}
+2026-02-04T21:46:51.103Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-080a-ffff-ffff0000005d")
+2026-02-04T21:46:51.104Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-080a-ffff-ffff0000005d/displayed
+2026-02-04T21:46:51.117Z INFO webdriver: RESULT true
+2026-02-04T21:46:51.117Z INFO webdriver: COMMAND findElement("id", "android:id/text1")
+2026-02-04T21:46:51.117Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:51.117Z INFO webdriver: DATA {"using":"id","value":"android:id/text1"}
+2026-02-04T21:46:51.133Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-080a-ffff-ffff0000005d',
+  ELEMENT: '00000000-0000-080a-ffff-ffff0000005d'
+}
+2026-02-04T21:46:51.135Z INFO webdriver: COMMAND elementClick("00000000-0000-080a-ffff-ffff0000005d")
+2026-02-04T21:46:51.135Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-080a-ffff-ffff0000005d/click
+2026-02-04T21:46:51.135Z INFO webdriver: DATA {}
+2026-02-04T21:46:51.789Z INFO webdriver: RESULT null
+2026-02-04T21:46:51.790Z INFO webdriver: COMMAND findElement("id", "ItemQuantity")
+2026-02-04T21:46:51.790Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:51.790Z INFO webdriver: DATA {"using":"id","value":"ItemQuantity"}
+2026-02-04T21:46:51.816Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff0000003c',
+  ELEMENT: '00000000-0000-0809-ffff-ffff0000003c'
+}
+2026-02-04T21:46:51.818Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0809-ffff-ffff0000003c")
+2026-02-04T21:46:51.818Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff0000003c/displayed
+2026-02-04T21:46:51.830Z INFO webdriver: RESULT true
+2026-02-04T21:46:51.830Z INFO webdriver: COMMAND getElementRect("00000000-0000-0809-ffff-ffff0000003c")
+2026-02-04T21:46:51.831Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff0000003c/rect
+2026-02-04T21:46:51.844Z INFO webdriver: RESULT { height: 96, width: 1160, x: 60, y: 924 }
+2026-02-04T21:46:51.844Z INFO webdriver: COMMAND getElementRect("00000000-0000-0809-ffff-ffff0000003c")
+2026-02-04T21:46:51.844Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff0000003c/rect
+2026-02-04T21:46:51.857Z INFO webdriver: RESULT { height: 96, width: 1160, x: 60, y: 924 }
+2026-02-04T21:46:51.858Z INFO webdriver: COMMAND executeScript("mobile: clickGesture", <object>)
+2026-02-04T21:46:51.858Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/execute/sync
+2026-02-04T21:46:51.858Z INFO webdriver: DATA {"script":"mobile: clickGesture","args":[{"x":640,"y":972}]}
+2026-02-04T21:46:51.927Z INFO webdriver: RESULT null
+2026-02-04T21:46:51.927Z INFO webdriver: COMMAND findElement("id", "ItemPrice")
+2026-02-04T21:46:51.928Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:51.928Z INFO webdriver: DATA {"using":"id","value":"ItemPrice"}
+2026-02-04T21:46:52.538Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff0000003e',
+  ELEMENT: '00000000-0000-0809-ffff-ffff0000003e'
+}
+2026-02-04T21:46:52.539Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0809-ffff-ffff0000003e")
+2026-02-04T21:46:52.539Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff0000003e/displayed
+2026-02-04T21:46:52.552Z INFO webdriver: RESULT true
+2026-02-04T21:46:52.553Z INFO webdriver: COMMAND findElement("id", "ItemPrice")
+2026-02-04T21:46:52.553Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:52.553Z INFO webdriver: DATA {"using":"id","value":"ItemPrice"}
+2026-02-04T21:46:52.578Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff0000003e',
+  ELEMENT: '00000000-0000-0809-ffff-ffff0000003e'
+}
+2026-02-04T21:46:52.580Z INFO webdriver: COMMAND elementClear("00000000-0000-0809-ffff-ffff0000003e")
+2026-02-04T21:46:52.580Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff0000003e/clear
+2026-02-04T21:46:52.580Z INFO webdriver: DATA {}
+2026-02-04T21:46:52.595Z INFO webdriver: RESULT null
+2026-02-04T21:46:52.595Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0809-ffff-ffff0000003e", "2.99")
+2026-02-04T21:46:52.596Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff0000003e/value
+2026-02-04T21:46:52.596Z INFO webdriver: DATA {"text":"2.99"}
+2026-02-04T21:46:53.111Z INFO webdriver: RESULT null
+2026-02-04T21:46:53.111Z INFO webdriver: COMMAND findElement("id", "ItemStock")
+2026-02-04T21:46:53.111Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:53.111Z INFO webdriver: DATA {"using":"id","value":"ItemStock"}
+2026-02-04T21:46:53.634Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000045',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000045'
+}
+2026-02-04T21:46:53.635Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0809-ffff-ffff00000045")
+2026-02-04T21:46:53.635Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000045/displayed
+2026-02-04T21:46:53.648Z INFO webdriver: RESULT true
+2026-02-04T21:46:53.648Z INFO webdriver: COMMAND findElement("id", "ItemStock")
+2026-02-04T21:46:53.648Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:53.648Z INFO webdriver: DATA {"using":"id","value":"ItemStock"}
+2026-02-04T21:46:53.680Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000045',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000045'
+}
+2026-02-04T21:46:53.681Z INFO webdriver: COMMAND elementClick("00000000-0000-0809-ffff-ffff00000045")
+2026-02-04T21:46:53.681Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000045/click
+2026-02-04T21:46:53.681Z INFO webdriver: DATA {}
+2026-02-04T21:46:53.729Z INFO webdriver: RESULT null
+2026-02-04T21:46:53.729Z INFO webdriver: COMMAND findElement("id", "ItemSupermarket")
+2026-02-04T21:46:53.729Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:53.729Z INFO webdriver: DATA {"using":"id","value":"ItemSupermarket"}
+2026-02-04T21:46:53.809Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000041',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000041'
+}
+2026-02-04T21:46:53.812Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0809-ffff-ffff00000041")
+2026-02-04T21:46:53.812Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000041/displayed
+2026-02-04T21:46:54.785Z INFO webdriver: RESULT true
+2026-02-04T21:46:54.785Z INFO webdriver: COMMAND findElement("id", "ItemSupermarket")
+2026-02-04T21:46:54.786Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:54.786Z INFO webdriver: DATA {"using":"id","value":"ItemSupermarket"}
+2026-02-04T21:46:54.816Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000041',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000041'
+}
+2026-02-04T21:46:54.818Z INFO webdriver: COMMAND elementClick("00000000-0000-0809-ffff-ffff00000041")
+2026-02-04T21:46:54.818Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000041/click
+2026-02-04T21:46:54.818Z INFO webdriver: DATA {}
+2026-02-04T21:46:55.479Z INFO webdriver: RESULT null
+2026-02-04T21:46:55.479Z INFO webdriver: COMMAND findElement("id", "ItemSave")
+2026-02-04T21:46:55.479Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:55.479Z INFO webdriver: DATA {"using":"id","value":"ItemSave"}
+2026-02-04T21:46:55.514Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000046',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000046'
+}
+2026-02-04T21:46:55.517Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0809-ffff-ffff00000046")
+2026-02-04T21:46:55.517Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000046/displayed
+2026-02-04T21:46:55.531Z INFO webdriver: RESULT true
+2026-02-04T21:46:55.532Z INFO webdriver: COMMAND findElement("id", "ItemSave")
+2026-02-04T21:46:55.532Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:55.532Z INFO webdriver: DATA {"using":"id","value":"ItemSave"}
+2026-02-04T21:46:55.572Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0809-ffff-ffff00000046',
+  ELEMENT: '00000000-0000-0809-ffff-ffff00000046'
+}
+2026-02-04T21:46:55.573Z INFO webdriver: COMMAND elementClick("00000000-0000-0809-ffff-ffff00000046")
+2026-02-04T21:46:55.574Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-0809-ffff-ffff00000046/click
+2026-02-04T21:46:55.574Z INFO webdriver: DATA {}
+2026-02-04T21:46:55.633Z INFO webdriver: RESULT null
+2026-02-04T21:46:55.634Z INFO webdriver: COMMAND findElement("id", "android:id/message")
+2026-02-04T21:46:55.634Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:55.634Z INFO webdriver: DATA {"using":"id","value":"android:id/message"}
+2026-02-04T21:46:55.743Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\karlt\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\karlt\\appium-js\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\karlt\\appium-js\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-02-04T21:46:55.747Z INFO webdriver: COMMAND findElements("id", "android:id/message")
+2026-02-04T21:46:55.747Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/elements
+2026-02-04T21:46:55.747Z INFO webdriver: DATA {"using":"id","value":"android:id/message"}
+2026-02-04T21:46:56.286Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-080b-ffff-ffff00000072',
+    ELEMENT: '00000000-0000-080b-ffff-ffff00000072'
+  }
+]
+2026-02-04T21:46:56.288Z INFO webdriver: COMMAND findElement("id", "android:id/message")
+2026-02-04T21:46:56.288Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:56.288Z INFO webdriver: DATA {"using":"id","value":"android:id/message"}
+2026-02-04T21:46:56.305Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-080b-ffff-ffff00000072',
+  ELEMENT: '00000000-0000-080b-ffff-ffff00000072'
+}
+2026-02-04T21:46:56.307Z INFO webdriver: COMMAND findElement("id", "android:id/message")
+2026-02-04T21:46:56.307Z INFO webdriver: [POST] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element
+2026-02-04T21:46:56.307Z INFO webdriver: DATA {"using":"id","value":"android:id/message"}
+2026-02-04T21:46:56.323Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-080b-ffff-ffff00000072',
+  ELEMENT: '00000000-0000-080b-ffff-ffff00000072'
+}
+2026-02-04T21:46:56.325Z INFO webdriver: COMMAND getElementText("00000000-0000-080b-ffff-ffff00000072")
+2026-02-04T21:46:56.325Z INFO webdriver: [GET] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941/element/00000000-0000-080b-ffff-ffff00000072/text
+2026-02-04T21:46:56.338Z INFO webdriver: RESULT Item saved successfully!
+2026-02-04T21:46:56.341Z INFO webdriver: COMMAND deleteSession()
+2026-02-04T21:46:56.341Z INFO webdriver: [DELETE] http://127.0.0.1:4723/session/7c085cfe-be18-4804-a563-de07f3c44941
+2026-02-04T21:46:56.903Z INFO webdriver: RESULT null

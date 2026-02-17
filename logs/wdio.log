@@ -1,0 +1,29 @@
+2026-02-04T21:46:31.485Z INFO @wdio/cli:launcher: Run onPrepare hook
+2026-02-04T21:46:31.503Z INFO @wdio/appium-service: Will spawn Appium process: cmd /c node C:\Users\karlt\appium-js\node_modules\appium\index.js --base-path / --port 4723
+2026-02-04T21:46:35.195Z INFO @wdio/appium-service: Appium started with ID: 20684
+2026-02-04T21:46:35.205Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2026-02-04T21:46:35.205Z INFO @wdio/xvfb: XvfbManager.init() called
+2026-02-04T21:46:35.205Z INFO @wdio/xvfb: Xvfb not needed on current platform
+2026-02-04T21:46:35.206Z INFO @wdio/local-runner: Start worker 0-0 with arg: run wdio.conf.js
+2026-02-04T21:46:35.252Z INFO @wdio/xvfb:ProcessFactory: xvfb-run not found, falling back to regular fork
+2026-02-04T21:46:35.252Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=false
+2026-02-04T21:46:35.252Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+2026-02-04T21:46:57.049Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2026-02-04T21:46:57.049Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2026-02-04T21:46:57.050Z INFO @wdio/local-runner: Start worker 0-1 with arg: run wdio.conf.js
+2026-02-04T21:46:57.068Z INFO @wdio/xvfb:ProcessFactory: xvfb-run not found, falling back to regular fork
+2026-02-04T21:46:57.068Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=false
+2026-02-04T21:46:57.068Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+2026-02-04T21:47:18.669Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2026-02-04T21:47:18.670Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2026-02-04T21:47:18.670Z INFO @wdio/local-runner: Start worker 0-2 with arg: run wdio.conf.js
+2026-02-04T21:47:18.686Z INFO @wdio/xvfb:ProcessFactory: xvfb-run not found, falling back to regular fork
+2026-02-04T21:47:18.686Z INFO @wdio/xvfb:ProcessFactory: ProcessFactory: shouldRun=false, isAvailable=false
+2026-02-04T21:47:18.686Z INFO @wdio/xvfb:ProcessFactory: Creating worker process with regular fork
+2026-02-04T21:47:32.942Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2026-02-04T21:47:32.943Z INFO @wdio/local-runner: Shutting down spawned worker
+2026-02-04T21:47:33.199Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2026-02-04T21:47:33.199Z INFO @wdio/local-runner: shutting down
+2026-02-04T21:47:33.199Z INFO @wdio/cli:launcher: Run onComplete hook
+2026-02-04T21:47:33.199Z INFO @wdio/appium-service: Killing entire Appium tree
+2026-02-04T21:47:33.334Z INFO @wdio/appium-service: Process and its children successfully terminated

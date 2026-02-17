@@ -1,0 +1,139 @@
+2026-02-04T21:47:19.670Z INFO @wdio/local-runner: Run worker command: run
+2026-02-04T21:47:20.257Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-02-04T21:47:20.257Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-02-04T21:47:20.270Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-02-04T21:47:26.218Z INFO @wdio/visual-service: Adding commands to global browser
+2026-02-04T21:47:26.220Z INFO webdriver: COMMAND getOrientation()
+2026-02-04T21:47:26.220Z INFO webdriver: [GET] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/orientation
+2026-02-04T21:47:26.614Z INFO webdriver: RESULT PORTRAIT
+2026-02-04T21:47:26.614Z INFO webdriver: COMMAND executeScript("mobile: deviceInfo", <object>)
+2026-02-04T21:47:26.615Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/execute/sync
+2026-02-04T21:47:26.615Z INFO webdriver: DATA {"script":"mobile: deviceInfo","args":[]}
+2026-02-04T21:47:26.633Z INFO webdriver: RESULT {
+  androidId: '62bef49e0de8fd81',
+  apiVersion: '36',
+  bluetooth: { state: 'ON' },
+  brand: 'google',
+  carrierName: 'T-Mobile',
+  displayDensity: 480,
+  locale: 'en_US',
+  manufacturer: 'Google',
+  model: 'sdk_gphone64_x86_64',
+  networks: [
+    {
+      capabilities: [Object],
+      detailedState: 'CONNECTED',
+      extraInfo: 'epc.tmobile.com',
+      isAvailable: true,
+      isConnected: true,
+      isFailover: false,
+      isRoaming: false,
+      state: 'CONNECTED',
+      subtype: 20,
+      subtypeName: 'NR',
+      type: 0,
+      typeName: 'MOBILE'
+    },
+    {
+      capabilities: [Object],
+      detailedState: 'CONNECTED',
+      extraInfo: '',
+      isAvailable: true,
+      isConnected: true,
+      isFailover: false,
+      isRoaming: false,
+      state: 'CONNECTED',
+      subtype: -1,
+      subtypeName: '',
+      type: 1,
+      typeName: 'WIFI'
+    }
+  ],
+  platformVersion: '16',
+  realDisplaySize: '1280x2856',
+  timeZone: 'Europe/London'
+}
+2026-02-04T21:47:26.634Z INFO @wdio/visual-service: Adding element command "saveElement" to browser object
+2026-02-04T21:47:26.634Z INFO @wdio/visual-service: Adding element command "checkElement" to browser object
+2026-02-04T21:47:26.634Z INFO @wdio/visual-service: Adding browser command "saveScreen" to browser object
+2026-02-04T21:47:26.634Z INFO @wdio/visual-service: Adding browser command "saveFullPageScreen" to browser object
+2026-02-04T21:47:26.634Z INFO @wdio/visual-service: Adding browser command "saveTabbablePage" to browser object
+2026-02-04T21:47:26.634Z INFO @wdio/visual-service: Adding browser command "checkScreen" to browser object
+2026-02-04T21:47:26.634Z INFO @wdio/visual-service: Adding browser command "checkFullPageScreen" to browser object
+2026-02-04T21:47:26.635Z INFO @wdio/visual-service: Adding browser command "checkTabbablePage" to browser object
+2026-02-04T21:47:26.635Z INFO @wdio/visual-service: Adding browser command "waitForStorybookComponentToBeLoaded" to browser object
+2026-02-04T21:47:26.639Z INFO webdriver: COMMAND executeScript("mobile: setConnectivity", <object>)
+2026-02-04T21:47:26.640Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/execute/sync
+2026-02-04T21:47:26.640Z INFO webdriver: DATA {"script":"mobile: setConnectivity","args":[{"airplaneMode":true,"wifi":false,"data":false}]}
+2026-02-04T21:47:26.813Z INFO webdriver: RESULT null
+2026-02-04T21:47:26.817Z INFO webdriver: COMMAND findElement("id", "ShoppingListBox")
+2026-02-04T21:47:26.817Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/element
+2026-02-04T21:47:26.817Z INFO webdriver: DATA {"using":"id","value":"ShoppingListBox"}
+2026-02-04T21:47:27.486Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0823-ffff-ffff00000020',
+  ELEMENT: '00000000-0000-0823-ffff-ffff00000020'
+}
+2026-02-04T21:47:27.491Z INFO webdriver: COMMAND elementClear("00000000-0000-0823-ffff-ffff00000020")
+2026-02-04T21:47:27.491Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/element/00000000-0000-0823-ffff-ffff00000020/clear
+2026-02-04T21:47:27.491Z INFO webdriver: DATA {}
+2026-02-04T21:47:27.531Z INFO webdriver: RESULT null
+2026-02-04T21:47:27.531Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0823-ffff-ffff00000020", "Oranges")
+2026-02-04T21:47:27.532Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/element/00000000-0000-0823-ffff-ffff00000020/value
+2026-02-04T21:47:27.532Z INFO webdriver: DATA {"text":"Oranges"}
+2026-02-04T21:47:28.566Z INFO webdriver: RESULT null
+2026-02-04T21:47:28.566Z INFO webdriver: COMMAND findElement("id", "AddShoppingListItem")
+2026-02-04T21:47:28.566Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/element
+2026-02-04T21:47:28.566Z INFO webdriver: DATA {"using":"id","value":"AddShoppingListItem"}
+2026-02-04T21:47:29.180Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0823-ffff-ffff00000022',
+  ELEMENT: '00000000-0000-0823-ffff-ffff00000022'
+}
+2026-02-04T21:47:29.183Z INFO webdriver: COMMAND elementClick("00000000-0000-0823-ffff-ffff00000022")
+2026-02-04T21:47:29.183Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/element/00000000-0000-0823-ffff-ffff00000022/click
+2026-02-04T21:47:29.183Z INFO webdriver: DATA {}
+2026-02-04T21:47:29.263Z INFO webdriver: RESULT null
+2026-02-04T21:47:29.263Z INFO webdriver: COMMAND findElement("id", "android:id/message")
+2026-02-04T21:47:29.263Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/element
+2026-02-04T21:47:29.263Z INFO webdriver: DATA {"using":"id","value":"android:id/message"}
+2026-02-04T21:47:29.476Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\karlt\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\karlt\\appium-js\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\karlt\\appium-js\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-02-04T21:47:29.481Z INFO webdriver: COMMAND findElements("id", "android:id/message")
+2026-02-04T21:47:29.481Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/elements
+2026-02-04T21:47:29.481Z INFO webdriver: DATA {"using":"id","value":"android:id/message"}
+2026-02-04T21:47:29.989Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0824-ffff-ffff00000034',
+    ELEMENT: '00000000-0000-0824-ffff-ffff00000034'
+  }
+]
+2026-02-04T21:47:29.993Z INFO webdriver: COMMAND findElement("id", "android:id/message")
+2026-02-04T21:47:29.993Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/element
+2026-02-04T21:47:29.993Z INFO webdriver: DATA {"using":"id","value":"android:id/message"}
+2026-02-04T21:47:30.014Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0824-ffff-ffff00000034',
+  ELEMENT: '00000000-0000-0824-ffff-ffff00000034'
+}
+2026-02-04T21:47:30.016Z INFO webdriver: COMMAND findElement("id", "android:id/message")
+2026-02-04T21:47:30.016Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/element
+2026-02-04T21:47:30.016Z INFO webdriver: DATA {"using":"id","value":"android:id/message"}
+2026-02-04T21:47:30.032Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0824-ffff-ffff00000034',
+  ELEMENT: '00000000-0000-0824-ffff-ffff00000034'
+}
+2026-02-04T21:47:30.034Z INFO webdriver: COMMAND getElementText("00000000-0000-0824-ffff-ffff00000034")
+2026-02-04T21:47:30.034Z INFO webdriver: [GET] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/element/00000000-0000-0824-ffff-ffff00000034/text
+2026-02-04T21:47:30.048Z INFO webdriver: RESULT No Internet
+2026-02-04T21:47:32.061Z INFO webdriver: COMMAND executeScript("mobile: setConnectivity", <object>)
+2026-02-04T21:47:32.061Z INFO webdriver: [POST] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda/execute/sync
+2026-02-04T21:47:32.062Z INFO webdriver: DATA {"script":"mobile: setConnectivity","args":[{"airplaneMode":false,"wifi":true,"data":true}]}
+2026-02-04T21:47:32.234Z INFO webdriver: RESULT null
+2026-02-04T21:47:32.236Z INFO webdriver: COMMAND deleteSession()
+2026-02-04T21:47:32.236Z INFO webdriver: [DELETE] http://127.0.0.1:4723/session/ffd8c167-4bbd-4570-9f19-b5d7fef6eeda
+2026-02-04T21:47:32.807Z INFO webdriver: RESULT null
