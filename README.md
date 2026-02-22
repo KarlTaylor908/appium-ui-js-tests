@@ -25,5 +25,5 @@ This project demonstrates end-to-end ownership of a mobile test solution — fro
   - Android emulator or physical device
   - .NET MAUI demo app installed (.apk)
 
- ### 2) Run Tests
- -  npx wdio run wdio.conf.js     
+   ### 2) Run Tests
+   -  npx wdio run wdio.conf.js     
