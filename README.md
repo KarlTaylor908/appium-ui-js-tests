@@ -1,5 +1,5 @@
 # Appium JavaScript UI Tests
-This project demonstrates end-to-end ownership of a mobile test solution — from building the MAUI app in maui-test-app and designing the automation framework in JavaScript.
+This project demonstrates end-to-end ownership of a mobile test solution — from building the MAUI app in [maui-test-app](https://github.com/KarlTaylor908/maui-test-app) and designing the automation framework in JavaScript.
 
 ## Features:
 - Mobile UI automation using Appium
