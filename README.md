@@ -13,7 +13,7 @@ This project demonstrates end-to-end ownership of a mobile test solution — fro
 - No Internet Connection
 
 ## Project Structure:
-- - test/ # Page Object Model structure (POM)
+- test/ # Page Object Model structure (POM)
 - test/ spec / # UI tests (.js)
 - wdio.conf.js
 
