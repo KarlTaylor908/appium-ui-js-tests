@@ -23,7 +23,7 @@ This project demonstrates end-to-end ownership of a mobile test solution — fro
   - Appium Server
   - Android Automation Driver installed
   - Android emulator or physical device
-  - .NET MAUI demo app installed (.apk)
+  - .NET MAUI demo app installed (.apk). Can be installed via the releases - https://github.com/KarlTaylor908/appium-ui-js-tests/releases/tag/v1.0
 
   ### 2) Run Tests
   -  npx wdio run wdio.conf.js     
